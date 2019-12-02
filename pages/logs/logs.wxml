@@ -1,0 +1,11 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <input placeholder="请输入用户名" bindchange="textchange" data-type="username"  type="text"></input>
+  <input placeholder="请输入密码" bindchange="textchange"    data-type="password"  type="password"></input>
+  <button class="login" bindtap="loginquset">登录</button>
+
+  <text class="sigup" bindtap="gosiginview">注册</text>
+
+  <text style="color:red">{{tishi}}</text>
+</view>
+

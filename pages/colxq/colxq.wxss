@@ -1,0 +1,9 @@
+/* pages/colxq/colxq.wxss */
+/* pages/newxq/newxq.wxss */
+.content{
+  padding: 0 26rpx;
+}
+
+.titles{
+  font-size: 50rpx;
+}

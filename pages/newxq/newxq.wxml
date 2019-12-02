@@ -1,0 +1,17 @@
+<view class="content">
+  <view class="titles">
+   {{content.title}}
+  </view>
+  <view style="color:#666">
+    <text>{{content.source}}</text>
+    <text>{{content.postTime}}</text>
+  </view>
+  <view style="color:#333;font-size:36rpx;">
+    {{content.content}}
+  </view>
+<view style="position: fixed;left: 76%;top: 89%" bindtap="golove">
+  <text class="iconfont icon-aixin" style="font-size:64rpx;color:{{lovecolor}}"></text>
+  <text style="font-size:26rpx">{{lovetxt}}</text>
+</view>
+
+</view>

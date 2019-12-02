@@ -1,0 +1,26 @@
+/* pages/mycol/mycol.wxss */
+
+.content{
+  width: 94%;
+  height: 260rpx;
+  border-bottom: 1px #eee solid;
+  float: left
+}
+.content view{
+  display: inline-block;
+  margin-top: 30rpx;
+}
+ .wz{
+  width: 440rpx;
+  font-size: 30rpx
+  
+}
+ .cimg{
+  width: 240rpx;
+  height: 120rpx;
+  float: right
+}
+image{
+  width: 100%;
+  height: 100%
+}

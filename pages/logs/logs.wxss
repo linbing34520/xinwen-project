@@ -1,0 +1,27 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+input{
+  border: 1rpx #de3232 solid;
+  width: 92%;
+  margin-top: 40rpx;
+  border-radius: 6rpx;
+  height: 60rpx;
+}
+.login{
+  background-color: #de3232;
+  color: #fff;
+  width: 92%;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top: 30rpx;
+}
+.sigup{
+  color: #999;margin-left: 460rpx;
+  margin-top: 24rpx;
+}

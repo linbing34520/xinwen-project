@@ -1,0 +1,30 @@
+/* pages/me/me.wxss */
+.userhead {
+  height: 200px;
+  background-color: #dd3635;
+  text-align: center;
+  display: flex;
+}
+.mainuser {
+  flex: 1;
+  line-height: 40px;
+  margin-top: 40px;
+}
+.col {
+  height: 42px;
+  width: 100%;
+  background-color: #c4c4c4;
+  line-height: 42px;
+  color: #fff;
+  margin-top: 20px;
+}
+.btn {
+  width: 60%;
+  height: 40px;
+  margin-top: 32px;
+  outline: none;
+  border-radius: 6px;
+  border: 0;
+  background-color: #dd3635;
+  color: #fff;
+}

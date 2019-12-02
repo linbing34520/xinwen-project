@@ -1,0 +1,21 @@
+<view class="sigin">
+  <form bindsubmit="siginSubmit">
+    <input type="text" placeholder="请输入用户名" bindchange="textChange" data-type="username"></input>
+    <input type="password" bindchange="textChange" data-type="password" placeholder="请输入密码"></input>
+    <input type="password" placeholder="重复密码"></input>
+    <view class="page__hd">
+    </view>
+    <view class="page__bd">
+      <mp-cells>
+        <mp-cell>
+          <mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uplaodFile}}" files="{{files}}" max-count="5"></mp-uploader>
+        </mp-cell>
+      </mp-cells>
+    </view>
+    <button formType="submit" class="login" bindtap="siginquest">注册</button>
+  </form>
+
+  <text class="logintoo" bindtap="gologinview">登录</text>
+</view>
+
+<text style="color:red">{{tishi}}</text>

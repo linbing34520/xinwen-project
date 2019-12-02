@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/sigin/sigin",
+    "pages/me/me",
+    "pages/newxq/newxq",
+    "pages/mycol/mycol",
+    "pages/seach/seach",
+    "pages/colxq/colxq"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#de3232",
+    "navigationBarTitleText": "新闻网",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#de3232",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/首页.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "image/我的.png",
+        "selectedIconPath": "image/me.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

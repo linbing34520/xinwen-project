@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "注册页",
+  "component": true,
+  "usingComponents": {
+    "mp-uploader": "../components/uploader/uploader",
+    "mp-cells": "../components/cells/cells",
+    "mp-cell": "../components/cell/cell"
+  }
+}

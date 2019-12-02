@@ -1,0 +1,17 @@
+<!--pages/mycol/mycol.wxml-->
+<view>
+
+  <navigator url="{{'/pages/colxq/colxq?id='+item.newId._id}}"  class="content" wx:for="{{content}}"  wx:key="index">
+    <view class="wz">
+      <text>{{item.newId.title}}</text>
+      <view>
+        <text>{{item.newId.source}}</text>
+        <text>{{item.newId.postTime}}</text>
+      </view>
+    </view>
+    <view class="cimg">
+    <image src="http://g.hiphotos.baidu.com/image/pic/item/c2cec3fdfc03924590b2a9b58d94a4c27d1e2500.jpg" width="100rpx"></image></view>
+  </navigator>
+
+
+</view>

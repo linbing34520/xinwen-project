@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="toptitle">
+    <text style="font-size:{{type=='科技'?fonttwo:fontone}}" bindtap="kejiview">科技</text>
+    <text style="font-size:{{type=='旅游'?fonttwo:fontone}}" bindtap="lyouview">旅游</text>
+    <text style="font-size:{{type=='财经'?fonttwo:fontone}}" bindtap="cjview">财经</text>
+    <text style="font-size:{{type=='军事'?fonttwo:fontone}}" bindtap="junsview">军事</text>
+    <text style="font-size:{{type=='体育'?fonttwo:fontone}}" bindtap="tyuview">体育</text>
+    <text class="iconfont icon-Magnifier" bindtap="seachview" style="font-size:40rpx"></text>
+  </view>
+
+  <view class="type">
+    <text class="active">手机</text>
+    <text>电脑</text>
+    <text>互联网</text>
+  </view>
+
+  <navigator url="{{'/pages/newxq/newxq?id='+item._id}}" wx:for="{{content}}" wx:for-item="item" wx:key="{{index}}" class="content">
+    <view class="wz">
+      <text>{{item.title}}</text>
+      <view>
+        <text style="color:#999;font-size:28rpx">{{item.source}}</text>
+        <text style="color:#999;font-size:28rpx">{{item.postTime}}</text>
+      </view>
+    </view>
+    <view class="cimg">
+      <image src="http://g.hiphotos.baidu.com/image/pic/item/c2cec3fdfc03924590b2a9b58d94a4c27d1e2500.jpg" width="100rpx"></image>
+    </view>
+  </navigator>
+
+
+</view>

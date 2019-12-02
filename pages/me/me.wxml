@@ -1,0 +1,17 @@
+<view class="mystau">
+  <view class="userhead">
+    <view class="mainuser">
+      <view>
+        <image src="http://g.hiphotos.baidu.com/image/pic/item/c2cec3fdfc03924590b2a9b58d94a4c27d1e2500.jpg" alt style="width:75px;height:75px;border-radius: 40px;">
+        </image>
+        <view style="color:#fff">{{name}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view>
+    <view class="col" bindtap="mycolview">我的收藏</view>
+    <button class="btn" bindtap="logoutview">登出</button>
+  </view>
+
+</view>
